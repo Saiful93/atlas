@@ -1,0 +1,96 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Timeless.ttf);
+}
+
+body,html{
+	height: 100%;
+	overflow-x: hidden !important;
+	font-family: myFirstFont;
+}
+p {
+	margin: 10px 3px 5px;
+}
+.navbar {
+	border-radius:0;
+}
+.navbar-nav {
+	margin: 10px;
+}
+.color-yellow {
+	color: #B68737;
+}
+.color-white {
+	color: white;
+}
+.float-right {
+	float: right;
+}
+.navbar-brand  {
+	height: auto;
+}
+header hr {
+	margin:0;
+}
+header {
+	height: 100%;
+	background: url(../images/header.jpg) no-repeat center center;
+	background-size: cover;
+}
+.background-bc {
+	background: url(../images/service-bc.png) no-repeat center center;
+	height: 295px;
+}
+footer {
+	margin-top: 50px;
+	padding: 20px 0;
+}
+footer p {
+	line-height: 100%;
+}
+.main div {
+	margin-bottom: 50px;
+	padding: 20px;
+}
+.main span {
+	font-weight: bolder;
+}
+.main h1 img {
+	margin: 0 auto;
+}
+.header-text {
+	position: relative;
+  	top: 30%;
+  	transform: translateY(-50%);
+	color: #FFFFFF;
+}
+.bar-lg {
+	width: 200px;
+	height:2px;
+	background: #B68737;
+	margin: 10px auto;
+}
+.font-size-60 {
+	font-size: 60px;
+}
+.btn-lg {
+	background:transparent;
+	border: 2px solid #FFFFFF;
+	border-radius: 0;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.btn {
+	background:transparent;
+	border: 2px solid #FFFFFF;
+	border-radius: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.bar-sm {
+	width: 100px;
+	height:2px;
+	background: #B68737;
+	margin: 10px auto;
+}
+
